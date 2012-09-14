@@ -1,7 +1,9 @@
 ENV['RACK_ENV'] = 'test'
 
-require 'simplecov'
-SimpleCov.start
+unless ENV['CI']
+  require 'simplecov'
+  SimpleCov.start
+end
 require 'test/unit'
 require 'shoulda'
 require 'rack/test'
