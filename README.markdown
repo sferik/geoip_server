@@ -13,7 +13,7 @@ This simple Rack server is useful as a self-hosted service for making lookups to
 * Push it to Heroku.com: `git push heroku master`
 
 
-## HowTo
+## How To
 
 Once the server is running you can make a GET request to the server and receive lookup results in JSON format.
 
