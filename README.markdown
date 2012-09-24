@@ -1,6 +1,8 @@
 # GeoIP Server
 
-This simple Rack server is useful as a self-hosted service for making lookups to the GeoIP database from MaxMind.com
+This simple Rack server is useful as a self-hosted service for making lookups to the GeoIP database from [MaxMind][].
+
+[maxmind]: http://www.maxmind.com/app/geolite
 
 
 ## Instant installation and deploy
